@@ -31,3 +31,5 @@ else if(score>=70 && score < 100){
 }else{
     console.log("Opps, seems your input is out of score");
 }
+
+//
