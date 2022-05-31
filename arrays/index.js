@@ -49,7 +49,30 @@ function arrayModify(array,target){
   return array;
 }
 //console.log(arrayModify([2,5,8,9],5));
-console.log(arrayModify([7,3,9],9));
+//console.log(arrayModify([7,3,9],9));
+
+const lang = ['HTML','CSS','JAVSCRIPT','JAVA'];
+//ADD to end of array PUSH
+lang.push("PYTHON");
+
+//add to start of the array
+lang.unshift("C++");
+console.log(lang);
+//REMOVE from end of array
+lang.pop()
+console.log(lang);
+//remove the first elemnt in the array
+lang.shift()
+console.log(lang);
+//remove elemnt from array
+lang.splice(2,1,"C")
+console.log(lang);
+lang.splice(0,0,"JQUERY")
+console.log(lang);
+//make a copy of array
+const newlang =lang.slice(3,5)
+console.log(newlang);
+
 
 
 
