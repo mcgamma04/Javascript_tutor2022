@@ -49,7 +49,7 @@ function arrayModify(array,target){
   return array;
 }
 //console.log(arrayModify([2,5,8,9],5));
-console.log(arrayModify([7,3,9],90));
+console.log(arrayModify([7,3,9],9));
 
 
 
