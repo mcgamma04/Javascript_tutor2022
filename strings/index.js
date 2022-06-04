@@ -14,7 +14,7 @@ for(let i=0; i<arr.length;i++){
 }
 return  {"lower":result,"uppercase":upper}
 }
-//console.log(onlyLowest(message));
+console.log(onlyLowest(message));
 //remove puntuation from the string
 let letter = "This is, what i: love? most!"
 function removepuntuation(str){
