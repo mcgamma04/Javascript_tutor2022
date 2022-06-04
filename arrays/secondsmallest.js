@@ -2,7 +2,7 @@
 
 function secondlest(arr){
 //sort the array
-arr = arr.sort();
+arr = arr.sort((a,b)=>a-b);
 //remove duplicate
 arr = [... new Set(arr)];
 arr.pop();
