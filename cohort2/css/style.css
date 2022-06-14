@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+.wrapper{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content:space-around;
+}
+.menu ul{
+    display: flex;
+   
+
+}
+ul li{
+    display:flex;
+    column-gap: 40px;
+list-style: none;  
+width:80px;
+}
+.logo h2{
+    font-weight: 20;
+    letter-spacing: 10px;
+}
+.banner{
+    display: flex;
+    margin-top: 30px;
+}
+.left{
+    text-transform: uppercase;
+    width:70%;
+    text-align: center;;
+}
+.right{
+    width: 30px;
+}
+.right img{
+    border-radius: 100%;
+}
+.btn{
+    border:1px solid dodgerblue;
+    padding:10px;
+    box-shadow: 5px  6px dodgerblue;
+}
+.btn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

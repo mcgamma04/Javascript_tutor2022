@@ -15,3 +15,12 @@ country_birth VARCHAR(23)
 //insert
 INSERT INTO person(`first_name`,`last_name`,`email`,`password`,`gender`,`date_of_birth`,`country_birth`)
 VALUES('John','Mikel','mikel@gmail.com','mike123','Male','1990-01-24','Nigeria')
+
+//select
+//SELECT * FROM person
+
+//count no of rows
+SELECT COUNT(*) FROM person;
+select count(*) AS totalmale from person where gender = 'male'
+
+SELECT id, first_name,last_name FROM person WHERE first_name like 'a%' 
