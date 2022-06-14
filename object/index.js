@@ -15,7 +15,10 @@ const person =[
     lastname:"Prince",
     age:17,
     skills:['Python'],
-    canSpeakEnglish:false
+    canSpeakEnglish:false,
+    // address:{
+    //     office:"Abc"
+    // }
     
 },
 {
@@ -63,14 +66,16 @@ const person =[
 //     console.log(obj);
 // }
 
-console.log(person[0]);
+// console.log(person[0]);
 
-for(let i= 0 ; i<person.length;i++){
-    let val =  person[i]
+// for(let i= 0 ; i<person.length;i++){
+//     let val =  person[i]
 
-    if(val['firstName'] === 'Michael' ){
-      break
-    }else{
-        console.log(val)
-    }
-}
+//     if(val['firstName'] === 'Michael' ){
+//       break
+//     }else{
+//         console.log(val)
+//     }
+// }
+
+console.log(Object.values(person));

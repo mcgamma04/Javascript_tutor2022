@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS stringcode
+
+//REATE TABLE 
+CREATE TABLE person(
+id int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+email VARCHAR(100),
+password VARCHAR(20),
+gender VARCHAR(7),
+date_of_birth DATE,
+country_birth VARCHAR(23)
+
+)
+//insert
+INSERT INTO person(`first_name`,`last_name`,`email`,`password`,`gender`,`date_of_birth`,`country_birth`)
+VALUES('John','Mikel','mikel@gmail.com','mike123','Male','1990-01-24','Nigeria')
